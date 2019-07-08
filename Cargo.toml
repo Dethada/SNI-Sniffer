@@ -1,0 +1,16 @@
+[package]
+name = "sni-sniffer"
+version = "0.1.0"
+authors = ["David Z. <david@dzhy.dev>"]
+edition = "2018"
+
+[dependencies]
+tls-parser = "0.8.0"
+md5 = "0.6"
+itertools = "0.8"
+x509-parser = "0.4"
+log = "0.4.6"
+nom = {version = "4.0", features=["verbose-errors"] }
+pnet = "0.22.0"
+pcap-parser = "0.3"
+clap = "~2.33"
